@@ -1,0 +1,94 @@
+
+body, html {
+  height: 100%;
+  margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+header.responsive, nav.responsive {
+    background: #F0FFFF;
+    height: 68px;
+    width: 100%;
+    direction: ltr;
+	padding-top:40px;
+}
+.card{
+	width:10%;
+	position:absolute;
+	left:80px; 
+}
+
+.card-body{
+		  background-image: linear-gradient(#C8C8C8, #F0FFFF);
+		  direction:rtl;
+}
+.card-body.h5{
+		  direction:ltr;
+}
+
+.ui.item.menu{
+	width:50%;
+	position:absolute;
+	top:110px;
+	left:400px;
+	
+}
+
+.ui.item.menu .item {
+	background-color:#A9A9A9;
+	color:white;
+}
+
+.cont{
+	height:70vh;
+	  background-image: linear-gradient(#C8C8C8, #F0FFFF);
+
+
+	margin-top:150px;
+
+}
+
+.primary-h{
+	  text-transform: uppercase;
+	  color:white;
+	  letter-spacing: 50px;
+	  text-align:center;
+	  font-family: 'Akaya Kanadaka', cursive;
+	  font-size:70px;
+	  direction:rtl;
+}
+.rotate{
+	  transform: rotate(-20deg);
+}
+
+.rotate-right{
+	  transform: rotate(20deg);
+	  
+
+}
+
+.box{
+   border-radius: 25% 10%;
+    width: 500px;
+    height: 400px;
+    background-image:url('https://www.justmusic.co.il/wp-content/uploads/2020/02/justmusic-300x300.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding-top:70px;
+}
+.box-text{
+	position:absolute;
+	left:5cm;
+	color:#D4AF37;
+	direction:rtl;
+	font-size:20px;
+	text-align:center;
+}
+.bmo{
+top:7cm;
+}	
+	
+
+
